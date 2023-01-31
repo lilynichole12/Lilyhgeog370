@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projections</title>
+</head>
+<body>
+    <h1 style="color:purple">In this project I learned how to display images in different projections ᶘᵒᴥᵒᶅ</h1>
+    
+    <h2 style="color:rgb(246, 143, 160)">In the QGIS software at the bottom corner of the viewfinder there is a tab called Project Properties- CRS lables with the current projection where one can change the projections of the map. With the addition of the Indicatrix Mapper the distortion of the map can be easily seen. </h2>
+    <p style="color:rgb(96, 1, 96)">When using a projection you make a spherical object flat. In different projections (cylindrical, conical, azimuthal), there are going to be different distortions that will impact the shape, area, distance and direction of the map. Looking at the different common projections in the QGIS software there are differences that dispay the issues in projections</p>
+    
+    <h2>WGS84 Projection</h2>
+    <h3>This map projection is a conical projection with some distortion of shape towards the top and bottom of the map.</h3>
+    <a href=".//maps/wgs84.png">
+    <img src=".//maps/wgs84.png" alt="WGS84" width='500px'>
+    </a>
+    <h2>Aitoff Projection</h2>
+    <h3>Some observations</h3>
+    <a href=".//maps/54043 pink.png">
+    <img src=".//maps/54043 pink.png" alt="Aitoff" width='500px'>
+    </a>
+    <h2 style="color:rgb(246, 143, 160)">My projections!! :)</h2>
+    
+    <h2>EPSG 3857 Projection</h2>
+    <h3>The 3857 projection is another conical projection. In this projection there is a distortion in area but there is less distortion of the shape in relationship to the WGS84. The distortion of the area can be seen by how big greenland is. this is the spherical mercator projection and its goal is to preserve direction.</h3>
+    <a href=".//maps/3857.png">
+    <img src=".//maps/3857.png" alt="3857" width='500px'>
+    </a>
+    <h2>EPSG 53018 Projection</h2>
+    <h3>cylindrical</h3>
+    <a href=".//maps/53018.png">
+    <img src=".//maps/53018.png" alt="WGS84" width='500px'>
+    </a>
+    <h2>EPSG 54034 Projection</h2>
+    <h3>cylindrical</h3>
+    <a href=".//maps/54034.png">
+    <img src=".//maps/54034.png" alt="WGS84" width='500px'>
+    </a>
+    <h2>EPSG 54027 Projection</h2>
+    <h3>This projection is a conical projection. there is a large distortion in the shape and size for areas more south and there is less distortion towards the north. There is also a rather large gap in the top middle where the projections don't reach.</h3>
+    <a href=".//maps/54027.png">
+    <img src=".//maps/54027.png" alt="WGS84" width='500px'>
+    </a>
+    <h2>ESRI 102016 Projection</h2>
+    <h3>This projection is a conical projection that has less of a gap than the 54027 projection. Like the 54027 projection there is a rather large distortion on the southern countries and less of a distortion on the shape for the northern ones. There may be a distortion on the area for the northern coutries. </h3>
+    <a href=".//maps/102016.png">
+    <img src=".//maps/102016.png" alt="WGS84" width='500px'>
+    </a>
+    <h2>ESRI 54003 Projection</h2>
+    <h3>This projection is cylindrical. The  </h3>
+    <a href=".//maps/Esri54003.png">
+    <img src=".//maps/Esri54003.png" alt="WGS84" width='500px'>
+    </a>
+    <h2>EPSG 8045 Projection</h2>
+    <h3>This projection appears to wildly distort the area and the shapes of some of the countries. The ESPG 8045 is a projection for Austria and lower Austria which expains some of the distortion. Area, shape, and distance are all distorted in different parts of the map meaning that it is a poor projection for the wntire map however based on the fact that it was developed for the Austrian region it may be a very good projection for that area.  </h3>
+    <a href=".//maps/8045.png">
+    <img src=".//maps/8045.png" alt="WGS84" width='500px'>
+    </a>
+    <p></p>
+    <h2>Data used for this project</h2>
+    <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
+</body>
+</html>

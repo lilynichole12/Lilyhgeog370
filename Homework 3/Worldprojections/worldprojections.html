@@ -8,7 +8,7 @@
 <body>
     <h1 style="color:purple">In this project I learned how to display images in different projections ᶘᵒᴥᵒᶅ</h1>
     
-    <h3 style="color:rgb(246, 143, 160)">In the QGIS software at the bottom corner of the viewfinder there is a tab called Project Properties- CRS lables with the current projection where one can change the projections of the map. With the addition of the Indicatrix Mapper the distortion of the map can be easily seen. </h3>
+    <h3 style="color:rgb(246, 143, 160)">In the QGIS software at the bottom corner of the viewfinder there is a tab called Project Properties- CRS lables with the current projection where one can change the projections of the map. With the addition of the Indicatrix Mapper the distortion of the map can be easily seen. I then used the print layout to export the map as a png.</h3>
     <p style="color:rgb(96, 1, 96)">When using a projection you make a spherical object flat. In different projections (cylindrical, conical, azimuthal), there are going to be different distortions that will impact the shape, area, distance and direction of the map. Looking at the different common projections in the QGIS software there are differences that dispay the issues in projections</p>
     
     <h2>WGS84 Projection</h2>
@@ -23,37 +23,37 @@
     </a>
     <h2 style="color:rgb(246, 143, 160)">My projections!! :)</h2>
     
-    <h2>EPSG 3857 Projection</h2>
+    <h2>Pseudo-Mercator-3857</h2>
     <h3>The 3857 projection is another conical projection. In this projection there is a distortion in area but there is less distortion of the shape in relationship to the WGS84. The distortion of the area can be seen by how big greenland is. this is the spherical mercator projection and its goal is to preserve direction.</h3>
     <a href=".//maps/3857.png">
     <img src=".//maps/3857.png" alt="3857" width='500px'>
     </a>
-    <h2>EPSG 53018 Projection large shape distortion towards poles</h2>
+    <h2>Winkel I-53018</h2>
     <h3>This is another projection that has the shape of an elipse. It runs into the same issues as the Aitoff projection in that it is more preserved towards the center and distorted on the poles. Unlike the Aitoff, it appears to do more to mitigate the distortion as you work towards the edges because there is less distortion in relation to area and shape in comparison to the others. This being said it also looks like the equator is a bit more skewed in terms of shape.  /h3>
     <a href=".//maps/53018.png">
     <img src=".//maps/53018.png" alt="WGS84" width='500px'>
     </a>
-    <h2>EPSG 54034 Projection</h2>
+    <h2>World Cylindrical Equal Area 54034 </h2>
     <h3>In this cylindrical projection, which is unlike other projections looked at, there seems to be more of a compression in the poles than towards the equator. This is unlike the other cylindrical projections because it is so compressed that the shape is still skewed. It does good in keeping the equatorial countries to be mainly correct however the compression on the poleward countries does little to preserve the area or shape.</h3>
     <a href=".//maps/54034.png">
     <img src=".//maps/54034.png" alt="WGS84" width='500px'>
     </a>
-    <h2>EPSG 54027 Projection</h2>
+    <h2>World Equidistant Conic 54027 </h2>
     <h3>This projection is a conical projection. there is a large distortion in the shape and size for areas more south and there is less distortion towards the north. There is also a rather large gap in the top middle where the projections don't reach.</h3>
     <a href=".//maps/54027.png">
     <img src=".//maps/54027.png" alt="WGS84" width='500px'>
     </a>
-    <h2>ESRI 102016 Projection</h2>
+    <h2>Azimunthal Equidistant North Pole 102016 Projection</h2>
     <h3>This projection is a conical projection that has less of a gap than the 54027 projection. Like the 54027 projection there is a rather large distortion on the southern countries and less of a distortion on the shape for the northern ones. There may be a distortion on the area for the northern coutries. </h3>
     <a href=".//maps/102016.png">
     <img src=".//maps/102016.png" alt="WGS84" width='500px'>
     </a>
-    <h2>ESRI 54003 Projection</h2>
+    <h2>Miller Cylindrical 54003 Projection</h2>
     <h3>This projection is a miller cylindrical projection. The axes make it so that the projection is not as good as the mercantor for directions. that being said it does a good job preserving the area and shape of the countries along the equador but that being said there is still a large distortion along the poles. When compating this projection to the mercantor projection again, it can be seen that the distortion of the pole countries is slightly less than the mercantor (Looking at greenland especially)</h3>  </h3>
     <a href=".//maps/Esri54003.png">
     <img src=".//maps/Esri54003.png" alt="WGS84" width='500px'>
     </a>
-    <h2>EPSG 8045 Projection</h2>
+    <h2>St. Stephan Grid (Ferro) 8045 Projection</h2>
     <h3>This projection appears to wildly distort the area and the shapes of some of the countries. The ESPG 8045 is a projection for Austria and lower Austria which expains some of the distortion. Area, shape, and distance are all distorted in different parts of the map meaning that it is a poor projection for the wntire map however based on the fact that it was developed for the Austrian region it may be a very good projection for that area.  </h3>
     <a href=".//maps/8045.png">
     <img src=".//maps/8045.png" alt="WGS84" width='500px'>

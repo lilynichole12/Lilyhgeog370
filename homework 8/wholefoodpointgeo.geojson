@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "wholefoodpointgeo",
+"features": [
+{ "type": "Feature", "properties": { "id": 1 }, "geometry": { "type": "Point", "coordinates": [ 375778.904095833597239, 1078084.794443394755945 ] } }
+]
+}
